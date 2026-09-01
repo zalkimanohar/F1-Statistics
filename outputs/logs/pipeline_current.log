@@ -1,0 +1,10 @@
+--- Starting F1 StatisticalOps Pipeline ---
+Loaded dim_constructors with columns: ['constructor_id', 'constructor_name', 'nationality', 'url', 'batch_id', 'created_timestamp', 'updated_timestamp']
+Loaded dim_drivers with columns: ['driver_id', 'given_name', 'family_name', 'nationality', 'url', 'batch_id', 'created_timestamp', 'updated_timestamp']
+Loaded dim_races with columns: ['season', 'round', 'race_name', 'race_date', 'circuit_id', 'circuit_name', 'locality', 'country', 'batch_id', 'created_timestamp', 'updated_timestamp']
+Loaded fact_session_results with columns: ['season', 'round', 'session_type', 'final_position', 'grid_position', 'points', 'laps', 'time', 'status', 'driver_id', 'driver_name', 'driver_nationality', 'constructor_id', 'constructor_name', 'constructor_nationality', 'batch_id', 'created_timestamp', 'updated_timestamp']
+Loaded ref_nationality_region with columns: ['nationality', 'region', 'batch_id', 'created_timestamp', 'updated_timestamp']
+Generating visual artifacts...
+All figures saved to outputs/figures
+Detailed report successfully compiled at outputs/reports/detailed_statistical_report_20260824_103807.md
+--- Pipeline Execution Complete ---

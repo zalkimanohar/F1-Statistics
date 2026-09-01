@@ -1,0 +1,35 @@
+F1-Statistics
+├── config
+│   ├── config.yaml
+│   └── metrics_schema.json
+├── data
+│   └── gold
+│       ├── dim_constructors
+│       │   └── dim_constructors.parquet
+│       ├── dim_drivers
+│       │   └── dim_drivers.parquet
+│       ├── dim_races
+│       │   └── dim_races.parquet
+│       ├── fact_session_results
+│       │   └── fact_session_results.parquet
+│       └── ref_nationality_region
+│           └── ref_nationality_region.parquet
+├── main.py
+├── notebooks
+│   └── exploratory_stats.py
+├── outputs
+│   ├── figures
+│   └── reports
+├── requirements.txt
+├── scripts
+│   └── run_statistical_pipeline.sh
+├── setup_project.sh
+├── src
+│   ├── __init__.py
+│   ├── ingest.py
+│   ├── reporter.py
+│   ├── statistics.py
+│   └── visualizer.py
+└── tree.txt
+
+15 directories, 18 files
